@@ -1,13 +1,20 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
 const ShowcaseSection = () => {
-  return (
-    <div id='work' className='app-showcase'>
+    const sectionRef = useRef(null);
+    const project1Ref = useRef(null);
+    const project2Ref = useRef(null);
+    const project3Ref = useRef(null);
+    
+
+
+   return (
+    <section id='work' className='app-showcase' ref={sectionRef}>
         <div className='w-full'>
             <div className='showcaselayout'>
                 {/* Left Side */}
 
-                <div className='first-project-wrapper'>
+                <div className='first-project-wrapper' ref={project1Ref}>
                     <div className='image-wrapper'>
                         <img src="/images/AiSaas.png" alt="Tools" />
                     </div>
@@ -21,25 +28,25 @@ const ShowcaseSection = () => {
                 {/* Right Side */}
 
                 <div className='project-list-wrapper overflow-hidden'>
-                    <div className='project'>
+                    <div className='project' ref={project2Ref}>
                         <div className='image-wrapper bg-[#ffefdb]'>
                             <img src="/images/Tracker.jpg" alt="Real Time Tracker" />
                         </div>
                         <h2>Real Time Tracker</h2>
                     </div>
 
-                     <div className='project'>
+                     <div className='project' ref={project3Ref}>
                         <div className='image-wrapper bg-[#ffe7eb]'>
-                            <img src="/images/Tracker.jpg" alt="Real Time Tracker" />
+                            <img src="/images/SS.png" alt="Image Classifier" />
                         </div>
-                        <h2>Real Time Tracker</h2>
+                        <h2>AI Image Classifer</h2>
                     </div>
 
                 </div>
             </div>
         </div>
       
-    </div>
+    </section>
   )
 }
 
