@@ -13,7 +13,7 @@ const Hero = () => {
     gsap.fromTo(
       ".hero-text h1",
       { y: 50, opacity: 0 },
-      { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: "power2.inOut" }
+      { y: 0, opacity: 1, stagger: 0.2, duration: 1.1, ease: "power2.inOut" }
     );
   });
   return (
