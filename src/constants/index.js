@@ -122,7 +122,7 @@ const techStackIcons = [
   {
     name: "Python Developer",
     modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
+    scale: 0.7    ,
     rotation: [0, 0, 0],
   },
   {
@@ -143,6 +143,7 @@ const techStackIcons = [
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
+  
 ];
 
 const expCards = [
