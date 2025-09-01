@@ -24,12 +24,11 @@ const Contact = () => {
 
     try {
       await emailjs.sendForm(
-        import.meta.env. VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.  VITE_APP_EMAILJS_TEMPLATE_ID,
-        formRef.current,
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
 
         formRef.current,
-        import.meta.env.  VITE_APP_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       );
 
       // Reset form and stop loading
@@ -95,7 +94,7 @@ const Contact = () => {
                   />
                 </div>
 
-                <button type="submit" disabled={loading} onClick={handleSubmit}>
+                <button type="submit" disabled={loading} >
                   <div className="cta-button group">
                     <div className="bg-circle" />
                     <p className="text">
