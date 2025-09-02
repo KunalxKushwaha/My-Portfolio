@@ -31,7 +31,7 @@ const TitleHeader = ({ title, sub }) => {
         opacity: 0,
         y: 40,
         duration: 1,
-        delay: 0.5,
+        delay: 0.7,
         ease: "power3.out",
       });
     }, headerRef);
