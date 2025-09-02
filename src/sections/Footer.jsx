@@ -1,6 +1,7 @@
 import React from 'react'
 import { socialImgs } from '../constants'
 const Footer = () => {
+    
   return (
     <footer className='footer'>
         <div className='footer-container'>
@@ -27,3 +28,4 @@ const Footer = () => {
 }
 
 export default Footer
+
