@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className='footer'>
         <div className='footer-container'>
             <div className='flex flex-col justify-center items-center md:items-start'>
-                <a href="/">Visit My Blog</a>
+                <a href="/"> Made with ❤️ by Kunal Kushwaha.</a>
             </div>
 
             <div className='socials'>
@@ -17,7 +17,7 @@ const Footer = () => {
                 ))}
             </div>
             <div className='flex flex-col justify-center'>
-                <p className='text-center md:text-end'>© {new Date().getFullYear()} Kunal Kushwaha. 2025 All Rights Reserved.</p>
+                <p className='text-center md:text-end'>© {new Date().getFullYear()} All Rights Reserved.</p>
 
             </div>
       
