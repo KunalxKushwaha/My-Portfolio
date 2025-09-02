@@ -43,12 +43,12 @@ const Testimonials = () => {
           sub="🌟 Clients Feedback Highlight"
         />
 
-        {/* ✅ Keep your original columns layout */}
+       
         <div className="lg:columns-3 md:columns-2 mt-16 gap-6">
           {testimonials.map((t, i) => (
             <div key={i} className="break-inside-avoid mb-6">
               <GlowCard card={t}>
-                {/* 👇 Animate this inner wrapper instead of outer */}
+                
                 <div className="testimonial-card flex items-center gap-3">
                   <div>
                     <img

@@ -209,14 +209,14 @@ const testimonials = [
     mentions: "@yash_tyagi23",
     review:
       "I can’t say enough good things about Kunal. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+    imgPath: "/images/tyagi.jpg",
   },
   {
     name: "Kushagra Kansal",
     mentions: "@kushagra__kansal",
     review:
       "Working with Kunal was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+    imgPath: "/images/kansal.jpg",
   },
   {
     name: "Nipun",
@@ -227,14 +227,14 @@ const testimonials = [
   },
   {
     name: "Piyush Chaudhary",
-    mentions: "piiiyuuushhh",
+    mentions: "@piiiyuuushhh",
     review:
       "Kunal was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
     imgPath: "/images/client5.png",
   },
   {
     name: "Nikunj Tyagi",
-    mentions: "nikunj_.tyagi",
+    mentions: "@nikunj_.tyagi",
     review:
       "Kunal's expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
     imgPath: "/images/client4.png",
@@ -244,7 +244,7 @@ const testimonials = [
     mentions: "@unfav_vishal",
     review:
       "Kunal was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+    imgPath: "/images/vishal.jpg",
   },
 ];
 
