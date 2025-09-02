@@ -65,8 +65,8 @@ const Hero = () => {
               <h1>into Real Projects</h1>
               <h1>that Deliver Results</h1>
             </div>
-            <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
-              Hii, I'm Kunal, a Developer based in Crotia with a Passion for Code.
+            <p className='text-white-50 md:text-xl relative z-10 pointer-events-none w-180'>
+              Hii, I'm Kunal, a Developer based in Crotia with a Passion for Code.I am an Enthusiast Web Developer and a good Learner and Listener as well.
             </p>
             <Buttons
               className="md:w-80 md:h-16 w-60 h-12"
