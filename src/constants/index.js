@@ -251,7 +251,7 @@ const testimonials = [
 const socialImgs = [
   {
     name: "insta",
-    url: "https://www.instagram.com/",
+    url: "https://www.instagram.com/psychic.kunal.45",
     imgPath: "/images/insta.png",
   },
   {
@@ -261,12 +261,12 @@ const socialImgs = [
   },
   {
     name: "x",
-    url: "https://www.x.com/",
+    url: "https://www.twitter.com/KunalxKushwaha",
     imgPath: "/images/x.png",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/",
+    url: "https://www.linkedin.com/in/kunal-kushwaha-a25810294",
     imgPath: "/images/linkedin.png",
   },
 ];

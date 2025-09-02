@@ -7,6 +7,7 @@ import FeatureCards from './sections/FeatureCards'
 import TechStack from './sections/TechStack.jsx'
 import Testimonials from './sections/Testimonials.jsx'
 import Contact from './sections/Contact.jsx'
+import Footer from './sections/Footer.jsx'
 
 const App = () => {
   //    const dotRef = useRef(null)
@@ -55,6 +56,7 @@ const App = () => {
    <TechStack/>   
    <Testimonials/>
    <Contact/>
+   <Footer/>
      {/* <div
       ref={outlineRef}
       className="fixed top-0 left-0 h-10 w-10 rounded-full border border-[#ff00ae] pointer-events-none z-[9999]"
