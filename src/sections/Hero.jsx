@@ -66,7 +66,7 @@ const Hero = () => {
               <h1>that Deliver Results</h1>
             </div>
             <p className='text-white-50 md:text-xl relative z-10 pointer-events-none w-180'>
-              Hii, I'm Kunal, a Developer based in Crotia with a Passion for Code.I am an Enthusiast Web Developer and a Good Learner and Listener as well.
+              Hii, I'm Kunal, a Developer based in Crotia with a Passion for Code. I am an Enthusiast Web Developer with a refined Interest in Machine Learning.
             </p>
             <Buttons
               className="md:w-80 md:h-16 w-60 h-12"
