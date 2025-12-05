@@ -255,8 +255,8 @@ const socialImgs = [
     imgPath: "/images/insta.png",
   },
   {
-    name: "fb",
-    url: "https://www.facebook.com/",
+    name: "github",
+    url: "https://github.com/KunalxKushwaha",
     imgPath: "/images/fb.png",
   },
   {
